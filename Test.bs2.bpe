@@ -1,0 +1,31 @@
+' {$STAMP BS2pe}
+' {$PBASIC 2.5}
+
+RedLED PIN  2
+Three PIN   3
+Four PIN 4
+Five PIN 5
+Six PIN 6
+Seven PIN 7
+
+
+OUTPUT RedLED
+OUTPUT Three
+OUTPUT Four
+OUTPUT Five
+OUTPUT Six
+OUTPUT Seven
+
+IsOn       CON   1
+IsOff      CON   0
+
+Main:
+
+RedLED = IsOn
+Three = IsOn
+Four = IsOn
+Five = IsOn
+Six = IsOn
+Seven = IsOn
+
+END
